@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77847CF8-00B
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TodoList", "src\TodoList\TodoList.xproj", "{5666C112-2A32-4BAC-BA12-9B6F5C54044B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1E6D493E-D210-427A-B9EE-77DF2AEC68F7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TodoList.Tests", "TodoList.Tests\TodoList.Tests.xproj", "{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,17 @@ Global
 		{5666C112-2A32-4BAC-BA12-9B6F5C54044B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5666C112-2A32-4BAC-BA12-9B6F5C54044B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5666C112-2A32-4BAC-BA12-9B6F5C54044B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5666C112-2A32-4BAC-BA12-9B6F5C54044B} = {77847CF8-00BE-4067-BE0A-065D43FEAB17}
+		{1E6D493E-D210-427A-B9EE-77DF2AEC68F7} = {77847CF8-00BE-4067-BE0A-065D43FEAB17}
+		{E03D8BF9-6BAF-4FAA-BEB2-87F1EAB40940} = {1E6D493E-D210-427A-B9EE-77DF2AEC68F7}
 	EndGlobalSection
 EndGlobal
